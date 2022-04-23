@@ -1,0 +1,37 @@
+@import 'fonts';
+@import 'colors';
+@import 'button';
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    transition: .3s ease-in-out all;
+}
+
+.container {
+    // custom width
+    max-width: 1344px;
+}
+
+.section-margin {
+    margin-top: 180px;
+}
+
+.label-section {
+    font-weight: map-get($font-weights, medium );
+    font-size: 25px;
+    color: $dark;
+}
+
+.heading-section {
+    font-weight: map-get($font-weights, bold );
+    font-size: 40px;
+    color: $dark;
+}
+
+.subheading-section {
+    font-weight: map-get($font-weights, light );
+    font-size: 18px;
+    color: $dark;
+}
