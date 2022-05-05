@@ -1,0 +1,15 @@
+.navbar {
+    padding: 24px 0;
+    .nav-link {
+        margin-right: 2rem;
+        font-weight: map-get($font-weights, medium );
+        color: $dark !important;
+        &.active {
+            font-weight: map-get($font-weights, bold );
+            color: $primary-color !important;
+        } 
+    }
+    .btn-signin {
+        color: $dark !important;
+    }
+}
