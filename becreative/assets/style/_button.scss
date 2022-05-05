@@ -2,19 +2,35 @@
 @import 'fonts';
 
 .btn-master {
-    padding: 15px 30px;
+    padding: 12px 30px;
+    display: flex;
+    align-items: center;
     border-radius: 50px;
     font-weight: map-get($font-weights, medium);
+    @include media-breakpoint-down(sm) {
+        padding: 15px 30px;
+    }
 }
 
 .btn-primary {
     @extend .btn-master;
     background-color: $button-color;
     color: #fff;
+    &:hover {
+        background-color: #df3e3e;
+        color: #fff;
+    }
+
 }
 
 .btn-secondary {
     @extend .btn-master;
     border: 2px solid $button-color;
     color: $button-color;
+    background-color: transparent;
+    &:hover {
+        background-color: $button-color;
+        color: #fff;
+        border: 1px solid $button-color;
+    }
 }
