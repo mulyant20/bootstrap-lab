@@ -19,7 +19,7 @@ a {
 }
 
 .section-margin {
-    margin-top: 180px;
+    margin-top: 96px;
 }
 
 .label-section {
@@ -43,8 +43,8 @@ a {
 // home
 .home {
     background-color: $secondary-color;
-    height: 800px;
-    padding-top: 112px;
+    height: 100%;
+    padding: 112px 0 80px;
     .heading-home {
         font-size: 46px;
         font-weight: map-get($font-weights, bold );

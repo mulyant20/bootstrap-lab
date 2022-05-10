@@ -1,5 +1,8 @@
+@import 'colors';
+
 .navbar {
     padding: 24px 0;
+    background-color: $secondary-color;
     .nav-link {
         margin-right: 2rem;
         font-weight: map-get($font-weights, medium );
