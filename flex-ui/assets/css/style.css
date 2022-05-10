@@ -278,3 +278,45 @@ body {
     align-items: center;
 }
 
+/* CTA */
+
+.cta {
+    position: relative;
+}
+
+@media (max-width: 800px) {
+    .cta {
+        padding: 20px;
+    }
+}
+
+.cta-bg {
+    height: 150px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+}
+
+.cta-wrapper {
+    background-color: #212833;
+    background-image: url('../img/Pattern-Dark-CTA.png');
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 4rem;
+    border-radius: 6px;
+}
+
+.cta-head {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cta-body {
+    color: #8896AB;
+    font-size: 16px;
+}
+
