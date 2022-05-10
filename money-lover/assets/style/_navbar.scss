@@ -1,0 +1,15 @@
+@import 'colors';
+
+.navbar {
+    background-color: #fff;
+    height: 80px;
+    &__link {
+        color: $secondary-gray-10;
+        &:hover {
+            color: $primary-green-100;
+        }
+        &:active {
+            color: $primary-green-100;
+        }
+    }
+}
