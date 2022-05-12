@@ -320,3 +320,18 @@ body {
     font-size: 16px;
 }
 
+/* Features 2 */
+
+.features-bg {
+    background-image: url('../img/Pattern-Light-Features.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features-head-2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #2A3342;
+    line-height: 48px;
+}
