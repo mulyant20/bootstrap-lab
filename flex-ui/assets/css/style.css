@@ -335,3 +335,43 @@ body {
     color: #2A3342;
     line-height: 48px;
 }
+
+/* Numbers */
+
+.number-margin {
+    margin-top: 20px;
+    padding: 50px 0 0;
+}
+
+.numbers {
+    background-color: #fff;
+    background-image: url('../img/Pattern-Light-Number.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.number-head {
+    font-size: 40px;
+    color: #22C55E;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.number-body {
+    color: #556987;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media (max-width: 800px) {
+    .number-head {
+        font-size: 24px;
+    }
+}
+
+.number-wave {
+    position: relative;
+    bottom: -5px;
+    left: 0;
+}
+
