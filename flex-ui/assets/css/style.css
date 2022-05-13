@@ -375,3 +375,36 @@ body {
     left: 0;
 }
 
+/* how it works */
+
+.how-it-works {
+    background-color: #2A3342;
+    background-image: url('../img/Pattern-Dark-How.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.how-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #22C55E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2A3342;
+    font-weight: 800;
+}
+
+.how-head {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin: 1rem 0 0;
+}
+
+.how-body {
+    margin-top: 4px;
+    color: #8896AB;
+}
+
