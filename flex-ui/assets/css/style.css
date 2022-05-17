@@ -408,3 +408,18 @@ body {
     color: #8896AB;
 }
 
+/* application */
+
+.application {
+    background-color: #fff;
+    position: relative;
+    padding-top: 120px;
+}
+
+.application-wave {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 100%;
+}
+
