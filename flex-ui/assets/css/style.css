@@ -484,3 +484,52 @@ body {
     background-color: #22C55E;
 }
 
+/* footer */
+
+.footer {
+    background-color: #2A3342;
+    background-image: url('../img/Pattern-Dark-footer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.link-footer,
+.copyright {
+    color: #8896AB;
+}
+
+.link-footer:hover,
+.link-footer:active {
+    color: #fff;
+}
+
+.label {
+    width: max-content;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 50px;
+    color: #22C55E;
+    background-color: #DCFCE7;
+}
+
+.label-secondary {
+    width: max-content;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 50px;
+    background-color: #DCFCE7;
+    color: #14532D;
+}
+
+.section-head-2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.section-body-2 {
+    color: #8896AB;
+    font-size: 18px;
+}
