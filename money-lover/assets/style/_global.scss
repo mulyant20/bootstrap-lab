@@ -83,3 +83,12 @@ a {
     padding: 0 1rem;
 }
 
+// Header
+.header {
+    min-height: 450px;
+    margin: 80px 1rem 0;
+    @include media-breakpoint-down(md) {
+        min-height: 320px;
+    }
+}
+
