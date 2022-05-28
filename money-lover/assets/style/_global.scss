@@ -92,3 +92,20 @@ a {
     }
 }
 
+// Intro detail
+
+.introCard {
+    height: 100%;
+    padding: 24px 8px;
+    border-radius: 8px;
+    background-color: $primary-green-50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+        margin-top: 1rem;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
