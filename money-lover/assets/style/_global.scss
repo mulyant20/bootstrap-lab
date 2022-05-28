@@ -1,0 +1,85 @@
+@import 'fonts';
+@import 'colors';
+@import 'button';
+
+* {
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    // border: 1px solid red;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.h1 {
+    line-height: 80px;
+    font-size: 4rem;
+    @include media-breakpoint-down(md) {
+        line-height: 48px;
+        font-size: 36px;
+    }
+}
+
+.h2 {
+    font-size: 2.5rem;
+}
+
+.h3 {
+    font-size: 40px;
+    @include media-breakpoint-down(sm) {
+        font-size: 26px;
+    }
+}
+
+.h5 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.h1,
+.h2 {
+    letter-spacing: -0.025em;
+}
+
+.txt-green-100 {
+    color: $primary-green-100 !important;
+}
+
+.txt-gray-100 {
+    color: $secondary-gray-100 !important;
+}
+
+.txt-gray-10 {
+    color: $secondary-gray-10 !important;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.mt-section {
+    margin-top: 176px;
+    @include media-breakpoint-down(sm) {
+        margin-top: 40px;
+    }
+}
+
+.px-section {
+    padding: 0 1rem;
+}
+
